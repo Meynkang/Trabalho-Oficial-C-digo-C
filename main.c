@@ -61,7 +61,7 @@ int main()
         printf("A multiplicacao e: %0.2f\n", num1 * num2);
         break;
 
-      case '/':
+      case '/': 
         printf("Digite o primeiro numero: \n");
         scanf("%f", &num1);
         do {
@@ -69,10 +69,10 @@ int main()
           scanf("%f", &num2);
         //Não pode dividir por zero.
           if (num2 == 0) {
-            printf("Voce não pode dividir por zero.");
+            printf("Voce não pode dividir por zero.\n");
           }
 
-        } while (num2 = 0);
+            } while (num2 == 0);
 
         printf("A divisao e: %0.2f\n", num1 / num2);
         break;
