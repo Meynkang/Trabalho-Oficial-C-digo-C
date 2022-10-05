@@ -5,6 +5,8 @@
 
 int main() 
 {
+  
+  //Nome. Curso. Universidade. Matrícula.
   puts("Meynka do Nascimento Griebeler. Analise e Desenvolvimento de Sistemas. UniLaSalle. 202212240\n");
  int operacao, menu;
   float num1, num2;
@@ -65,8 +67,9 @@ int main()
         do {
           printf("Digite o proximo numero: \n");
           scanf("%f", &num2);
+        //Não pode dividir por zero.
           if (num2 == 0) {
-            printf("Voce não pode dividir por zero. Digite outro número");
+            printf("Voce não pode dividir por zero.");
           }
 
         } while (num2 = 0);
