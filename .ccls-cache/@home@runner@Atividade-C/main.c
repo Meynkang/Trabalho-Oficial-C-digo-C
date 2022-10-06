@@ -5,6 +5,8 @@
 
 int main() 
 {
+  /*Neste código, o usuário pode realizar calculos com precisão, de acordo com 
+  a opereção escolhida. Ele vai digitar 1 para raiz quadrada e 2 para as demais operações. Caso digite 2, ele vai poder escolher a operação de acordo com o seu símbolo matemático. Quando desejar encerrar as atividades, é só digitar 0.*/
   
   //Nome. Curso. Universidade. Matrícula.
   puts("Meynka do Nascimento Griebeler. Analise e Desenvolvimento de Sistemas. UniLaSalle. 202212240\n");
@@ -61,7 +63,7 @@ int main()
         printf("A multiplicacao e: %0.2f\n", num1 * num2);
         break;
 
-      case '/':
+      case '/': 
         printf("Digite o primeiro numero: \n");
         scanf("%f", &num1);
         do {
@@ -69,10 +71,10 @@ int main()
           scanf("%f", &num2);
         //Não pode dividir por zero.
           if (num2 == 0) {
-            printf("Voce não pode dividir por zero.");
+            printf("Voce não pode dividir por zero.\n");
           }
 
-        } while (num2 = 0);
+            } while (num2 == 0);
 
         printf("A divisao e: %0.2f\n", num1 / num2);
         break;

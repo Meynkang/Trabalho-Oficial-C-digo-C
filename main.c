@@ -5,6 +5,8 @@
 
 int main() 
 {
+  /*Neste código, o usuário pode realizar calculos com precisão, de acordo com 
+  a opereção escolhida. Ele vai digitar 1 para raiz quadrada e 2 para as demais operações. Caso digite 2, ele vai poder escolher a operação de acordo com o seu símbolo matemático. Quando desejar encerrar as atividades, é só digitar 0.*/
   
   //Nome. Curso. Universidade. Matrícula.
   puts("Meynka do Nascimento Griebeler. Analise e Desenvolvimento de Sistemas. UniLaSalle. 202212240\n");
